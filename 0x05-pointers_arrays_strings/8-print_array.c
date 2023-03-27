@@ -10,7 +10,7 @@ void print_array(int *a, int n)
 {
 	int i = 0;
 
-	for (n--; i >= 0; i++)
+	for (n--; i >= 0; n--; i++)
 	{
 		prinrf("%d", a[i]);
 		if (n > 0)
