@@ -1,12 +1,13 @@
 #include "stdio.h"
 
+
 /**
- * main - print number
- * argc: elemant counter
- * argv: elemant value
- *
- * Return: zero
- */
+  * main - Prints the number of args
+  * @argc: argument count
+  * @argv: argument vector
+  *
+  * Return: Always zero
+  */
 
 int main(int argc, char *argv[])
 {
