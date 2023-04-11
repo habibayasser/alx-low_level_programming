@@ -6,12 +6,12 @@
  * @argc: argument counter
  * argv: argument value
  *
- * Return: zero
+ * Return: Always zero
  */
 
 int main(int argc, char *argv[])
 {
-	int x, y;
+	int x = 0, y = 0;
 
 	if (argc == 3)
 	{
