@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * main - multiplies two numbers.
- * @argc: argument counter
- * argv: argument value
- *
- * Return: Always zero
- */
+  * main - Prints the multiplication of two args numbers
+  * @argc: argument count
+  * @argv: argument vector
+  *
+  * Return: Always zero
+  */
 
 int main(int argc, char *argv[])
 {
