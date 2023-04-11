@@ -3,12 +3,12 @@
 #include <string.h>
 
 /**
- * main - print the addation of positive numbers.
- * @argc: argument counter
- * @argv: argument vector
- *
- * Retuen: always zero
- */
+  * main - Prints the sum of args positive numbers
+  * @argc: argument count
+  * @argv: argument vector
+  *
+  * Return: Always zero
+  */
 
 int main(int argc, char *argv[])
 {
