@@ -13,28 +13,29 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	int i, length = 0;
-	char *con;
-	int conc_len;
+	char *conc;
+	int i, conc_len = 0, length = 0;
 
 	if (s1 == NULL)
 		s1 = "";
+
 	if (s2 == NULL)
 		s2 = "";
 
-	for (i = 0 ; s1[i] || s2[i]; i++)
+	for (i = 0; s1[i] || s2[i]; i++)
 		length++;
 
-	con = malloc(sizeof(char) * length);
+	conc = malloc(sizeof(char) * length);
 
-	if (con == NULL)
+	if (conc == NULL)
 		return (NULL);
 
+
 	for (i = 0; s1[i]; i++)
-		con[conc_len++] = s1[i];
+		conc[conc_len++] = s1[i];
 
 	for (i = 0; s2[i]; i++)
-		con[conc_len++] = s2[i];
+		conc[conc_len++] = s2[i];
 
-	return (con);
+	return (conc);
 }
