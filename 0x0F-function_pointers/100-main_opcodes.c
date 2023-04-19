@@ -10,12 +10,12 @@
  */
 void print_opcodes(char *a, int n)
 {
-	int a;
+	int i;
 
-	for (c = 0; c < n; c++)
+	for (i = 0; i < n; i++)
 	{
-		printf("%.2hhx", a[c]);
-		if (c < n - 1)
+		printf("%.2hhx", a[i]);
+		if (i < n - 1)
 			printf(" ");
 	}
 	printf("\n");
@@ -29,7 +29,6 @@ void print_opcodes(char *a, int n)
  *
  * Return: always O
  */
-
 int main(int argc, char **argv)
 {
 	int n;
