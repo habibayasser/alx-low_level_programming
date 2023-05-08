@@ -13,18 +13,18 @@ void close_file(int fd);
 
 char *create_buffer(char *file)
 {
-	char *list;
+	char *buffer;
 
-	list = malloc(sizeof(char) * 1024);
+	buffer = malloc(sizeof(char) * 1024);
 
-	if (list == NULL)
+	if (buffer == NULL)
 	{
 		dprintf(STDERR_FILENO,
 			"Error: Can't write to %s\n", file);
 		exit(99);
 	}
 
-	return(list);
+	return(buffer);
 
 }
 
